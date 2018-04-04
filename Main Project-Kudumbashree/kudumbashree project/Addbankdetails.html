@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>KUDUMBASHREE</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="css/colorpicker.css" />
+<link rel="stylesheet" href="css/datepicker.css" />
+<link rel="stylesheet" href="css/uniform.css" />
+<link rel="stylesheet" href="css/select2.css" />
+<link rel="stylesheet" href="css/maruti-style.css" />
+<link rel="stylesheet" href="css/maruti-media.css" class="skin-color" />
+</head>
+<body>
+<style>
+.dropdown {
+    position: relative;
+     min-width: 60px;
+}
+
+input {
+    width: 40%;
+} 
+</style>
+<!--Header-part-->
+<div id="header"><img src="kudumbashree-logo.png" width="21%">
+ </div>
+<!--close-Header-part--> 
+
+<!--top-Header-messaages-->
+
+<!--close-top-Header-menu--> 
+<!--left-menu-stats-sidebar-->
+
+<!--close-left-menu-stats-sidebar-->
+
+
+  <!-- <div id="content-header"> -->
+    <!-- <div id="breadcrumb"> <a href="Admin Home.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</div> -->
+    <!-- <h1>Employee Registration</h1> -->
+  <!-- </div> -->
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box">
+          
+          <div class="widget-content nopadding">
+            <form action="Addbank.php" method="post" class="form-horizontal" enctype="multipart/form-data">
+              <div class="control-group">
+                <label class="control-label"> Name :</label>
+                <div class="controls">
+                  <input type="text" class="" name="txtname" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Bank Name</label>
+                <div class="controls" style='width=5';>
+                  <select name="txtbname">
+                    <option>SBI</option>
+                    <option>ICICI</option>
+                    <option>UNION</option>
+					<option>HDFC</option>
+                    
+                  </select>
+                </div>
+              </div>
+			   <div class="control-group">
+                <label class="control-label">Branch</label>
+                <div class="controls">
+                  <input type="text" class="" name="txtbranch"  />
+                </div>
+              </div>
+			   <div class="control-group">
+                <label class="control-label">Card Number</label>
+                <div class="controls">
+                  <input type="text" class=""name="txtcn"  />
+                </div>
+              </div>
+			   <div class="control-group">
+                <label class="control-label">Card Verification Code</label>
+                <div class="controls">
+                  <input type="text" class=""name="txtcvc"  />
+                </div>
+              </div>
+			   <div class="control-group">
+                <label class="control-label">Exp date</label>
+                <div class="controls">
+                  <input type="text" data-date="01-02-2013" data-date-format="dd-mm-yyyy" name="txtexp"value="01-02-2013" class="">
+                  <span class="help-block">Date with Formate of  (dd-mm-yy)</span> </div>
+              </div>
+			  
+			   <div class="control-group">
+                <label class="control-label">Atm Pin</label>
+                <div class="controls">
+                  <input type="text" class=""name="txtatm"  />
+                </div>
+              </div>
+			   <div class="control-group">
+                <label class="control-label">Amount</label>
+                <div class="controls">
+                  <input type="text" class=""name="txtam"  />
+                </div>
+              </div>
+             
+			               
+              <div class="form-actions">
+                <button type="submit" class="btn btn-success">Add</button> <button type="submit" class="btn btn-success">cancel</button>
+              </div>
+			  
+            </form>
+          </div>
+        </div>
+      </div>
+	  </div>
+	  </div>
+      <div>
+    </div><hr>
+    
+  </div>
+</div>
+</div>
+<div class="row-fluid">
+  <div id="footer" class="span12"></div>
+</div>
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.ui.custom.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-colorpicker.js"></script> 
+<script src="js/bootstrap-datepicker.js"></script> 
+<script src="js/jquery.uniform.js"></script> 
+<script src="js/select2.min.js"></script> 
+<script src="js/maruti.js"></script> 
+<script src="js/maruti.form_common.js"></script>
+</body>
+</html>
